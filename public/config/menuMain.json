@@ -1,0 +1,68 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  }, 
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","intro"],
+    "path": "pages/intro.html"
+  }, 
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "probatorio",
+    "title": "1. Elemento material probatorio y evidencia física",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "custodia",
+    "title": "2. Cadena de custodia",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "custodia",
+        "title": "2.1 Requisitos de validez del sistema de cadena de custodia",
+        "anchor": "21"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "recoleccion",
+    "title": "3. Recolección, embalaje y rotulado de los EMP Y EF",
+    "breadcrumb": ["Inicio","Tema 3"],
+    "path": "pages/3-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "recoleccion",
+        "title": "3.1 Generalidades",
+        "anchor": "31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "recoleccion",
+        "title": "3.2 Manejo de los EMP Y EF provenientes de entidades prestadoras de servicios de salud públicas o privadas",
+        "anchor": "32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "recoleccion",
+        "title": "3.3 Forma de recolección, embalaje, rotulado, entrega a la autoridad competente y recomendaciones prácticas para el manejo de EMP Y EF de tipo prendas y evidencia traza",
+        "anchor": "33"
+      }
+     ]
+  }
+]
